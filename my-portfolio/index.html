@@ -28,8 +28,9 @@
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
   <div class="container">
     <a class="navbar-brand fw-bold text-white" href="#">My Portfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <i class="bi bi-list text-white"></i> <!-- Bootstrap icon -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+      aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list text-white fs-1"></i>
     </button>
 
     <div class="collapse navbar-collapse" id="navMenu">
@@ -277,18 +278,18 @@
       </div>
     </div>
   </section>
-
+ <!-- Contact Info -->
   <section id="contact" class="py-5 bg-dark text-white">
     <div class="container">
-      <div class="text-center mb-5" data-aos="fade-up">
+      <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1200">
         <h2 class=" display-5 text-warning">Let's Connect</h2>
         <p class="text-muted">Interested in working together or have a question? Reach out!</p>
       </div>
 
       <div class="row">
-        <!-- Contact Info -->
-        <div class="col-md-5 mb-4 bg-secondary rounded-4 shadow-sm" data-aos="fade-right">
-          <div class="p-4 ">
+       
+        <div class="col-md-5 mb-4  "  data-aos="fade-right" data-aos-duration="1200">
+          <div class="p-4 bg-secondary rounded-4 shadow-sm">
             <h5 class="fw-bold mb-3">Contact Details</h5>
             <p class="mb-3">
               <i class="bi bi-telephone-fill me-2"></i>
@@ -309,7 +310,7 @@
         </div>
 
         <!-- Contact Form -->
-        <div class="col-md-7 px-5" data-aos="fade-left">
+        <div class="col-md-7 px-5"  data-aos="fade-left" data-aos-duration="1200">
           <form id="contact-form" action="https://formspree.io/f/mwpqqvpg" method="POST">
             <!-- Spam honeypot (optional but recommended) -->
             <input type="text" name="_honey" class="d-none" tabindex="-1" autocomplete="off">

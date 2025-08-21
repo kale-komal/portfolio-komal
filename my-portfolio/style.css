@@ -11,17 +11,22 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  padding-top: 56px; /* to offset the fixed navbar */
-}
 
 /* Hero Section Custom Styles */
-#home {
-  background-color: #0b1c2d; /* Navy blue shade */
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scroll */
 }
+
+#home {
+  max-width: 100vw; 
+  height: 100vh;
+  display: flex;           /* For centering content */
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
 
 .animate-profile {
   animation: float 3s ease-in-out infinite;
