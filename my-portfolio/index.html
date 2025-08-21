@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Add Bootstrap Icons CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0" class="bg-dark">
+
+  <!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <i class="bi bi-list text-white"></i> <!-- Bootstrap icon -->
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+
+  <!-- Hero Section -->
+  <section id="home" class="text-white bg-dark">
+    <div class="container pt-5">
+      <div class="row align-items-center">
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <p class="fs-5 mb-1">Hello, It's Me</p>
+          <h1 class="display-4 fw-bold">Komal Kale</h1>
+          <p class="fs-4">
+            I'm a <span class="typed-text text-warning"></span><span class="cursor text-warning">|</span>
+          </p>
+          <p class="lead">
+            I'm a Full Stack Developer passionate about building scalable, user-centric web applications. I
+            focus on delivering high-quality digital solutions that solve real-world problems and enhance
+            user experience.
+          </p>
+
+          <a href="assets/resume.pdf" download class="btn btn-outline-light mt-3">Download Resume</a>
+        </div>
+
+        <!-- Image Column -->
+        <div class="col-md-6 text-center mt-4 mt-md-0">
+          <img src="assets/komal-kale.png" alt="Profile Photo"
+            class="img-fluid rounded-circle shadow-lg animate-profile" style="max-width: 300px;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section (Dark Theme) -->
+  <section id="about" class="py-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="assets/about-image.png" alt="About Me" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-3 text-warning display-5" data-aos="fade-up" data-aos-duration="1200">Meet Komal</h2>
+          <p>
+            I’m a Full Stack Developer with hands-on experience in building complete and scalable web
+            applications. I’ve developed end-to-end projects using ASP.NET MVC with ADO.NET and SQL Server,
+            integrating responsive UI with solid backend logic.
+          </p>
+          <p>
+            My core front-end skills include HTML, CSS, JavaScript, and Bootstrap. I also have an
+            understanding of the MERN stack (MongoDB, Express.js, React.js, and Node.js), which supports my
+            broader knowledge of full-stack development.
+          </p>
+          <p></p>
+          I use Git and GitHub for version control and team collaboration, and I’m passionate about writing
+          clean, efficient code, solving real-world problems, and continuously expanding my technical skill
+          set.
+          </p>
+          <p>I hold a Master’s degree in Mathematics, which strengthens my logical thinking and approach to
+            writing clean, efficient code.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="text-warning display-5" data-aos="fade-up" data-aos-duration="1200">Technical Skills</h2>
+        <p class="text-white-50">Technologies I've worked with in my development journey</p>
+      </div>
+      <div class="row g-4">
+
+        <!-- HTML -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" class="img-fluid mb-3"
+              style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">HTML5</h6>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" class="img-fluid mb-3"
+              style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">CSS3</h6>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" class="img-fluid mb-3"
+              style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">JavaScript</h6>
+          </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap"
+              class="img-fluid mb-3" style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">Bootstrap</h6>
+          </div>
+        </div>
+
+        <!-- ASP.NET MVC -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png" alt=".NET MVC"
+              class="img-fluid mb-3" style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">ASP.NET MVC</h6>
+          </div>
+        </div>
+
+        <!-- SQL Server -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://cdn.iconscout.com/icon/free/png-512/sql-18-1174921.png" alt="SQL Server"
+              class="img-fluid mb-3" style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">SQL Server</h6>
+          </div>
+        </div>
+
+        <!-- Git & GitHub -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="img-fluid mb-3"
+              style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">Git & GitHub</h6>
+          </div>
+        </div>
+
+        <!-- MERN Stack (General) -->
+        <div class="col-md-3 col-sm-6">
+          <div class="bg-secondary bg-gradient rounded-4 text-center p-4 shadow skill-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="MERN" class="img-fluid mb-3"
+              style="height: 50px;" data-aos="zoom-in" data-aos-duration="1200">
+            <h6 class="text-white fw-semibold mb-0">MERN (Basic Understanding)</h6>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5 text-light bg-dark">
+    <div class="container">
+      <h2 class="text-center display-5 text-warning mb-5" data-aos="fade-up" data-aos-duration="1200">Projects</h2>
+      <div class="row g-4">
+
+        <!-- Project 1 -->
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-dark border-0 shadow skill-box">
+            <img src="assets/aquapeya.png" class="card-img-top object-fit-cover" height="200" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title text-white">Aquapeya Website</h5>
+              <p class="card-text">A static responsive website built with HTML, CSS, JavaScript, and Bootstrap featuring modern design.</p>
+              <a href="https://www.aquapeya.com" target="_blank" class="btn btn-outline-light btn-sm">Live Demo</a>
+              <!-- <a href="#" class="btn btn-outline-warning btn-sm">GitHub</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-dark border-0 shadow skill-box">
+            <img src="assets/parkland.png" class="card-img-top object-fit-cover" height="200" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title text-white">Park Land Website</h5>
+              <p class="card-text">A  responsive website built with modern UI design and clean layout for better experience.</p>
+              <a href="https://github.com/kale-komal/ParkLand" target="_blank" class="btn btn-outline-warning btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-dark border-0 shadow skill-box">
+            <img src="assets/4sdesign.png" class="card-img-top object-fit-cover" height="200" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title text-white">4S Design Website</h5>
+              <p class="card-text">A static responsive website built using HTML, CSS, JavaScript, and Bootstrap with modern design.</p>
+              <a href="https://4sdesigncs.com/" target="_blank" class="btn btn-outline-light btn-sm">Live Demo</a>
+              <!-- <a href="#" class="btn btn-outline-warning btn-sm">GitHub</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more projects similarly -->
+
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-warning display-5 mb-5" data-aos="fade-up" data-aos-duration="1200">Professional
+        Journey</h2>
+      <div class="timeline">
+
+        <!-- DSTECHHOUSE -->
+        <div class="timeline-item" data-aos="fade-right" data-aos-duration="1200">
+          <div class="timeline-dot bg-info"></div>
+          <div class="timeline-content bg-dark text-white shadow">
+            <h5 class="mb-1">Front End Developer Intern</h5>
+            <small class="text-white-50">DSTECHHOUSE</small>
+            <ul class="mt-2 ps-3">
+              <li>Built dynamic UIs with HTML, CSS, JavaScript, and React.</li>
+              <li>Collaborated with designers to enhance UX.</li>
+              <li>Worked closely with senior developers to implement features and debug issues.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- INTELLECT SYSTEMS -->
+        <div class="timeline-item" data-aos="fade-left" data-aos-duration="1200">
+          <div class="timeline-dot bg-warning"></div>
+          <div class="timeline-content bg-dark text-white shadow">
+            <h5 class="mb-1">Full Stack Developer</h5>
+            <small class="text-white-50">Intellect Systems | Mar 2024 – Present</small>
+            <ul class="mt-2 ps-3">
+              <li>Developed full-stack projects using ASP.NET MVC and ADO.NET.</li>
+              <li>Built responsive UI using Bootstrap and custom CSS.</li>
+              <li>Worked with SQL Server for backend logic and data handling.</li>
+              <li>Integrated authentication, file uploads, and validations.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class=" display-5 text-warning">Let's Connect</h2>
+        <p class="text-muted">Interested in working together or have a question? Reach out!</p>
+      </div>
+
+      <div class="row">
+        <!-- Contact Info -->
+        <div class="col-md-5 mb-4 bg-secondary rounded-4 shadow-sm" data-aos="fade-right">
+          <div class="p-4 ">
+            <h5 class="fw-bold mb-3">Contact Details</h5>
+            <p class="mb-3">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <strong>Phone:</strong>
+              <a href="tel:+917350700434" class="text-decoration-none text-light">+91-7350700434</a>
+            </p>
+
+            <p class="mb-3">
+              <i class="bi bi-envelope-fill me-2"></i>
+              <strong>Email:</strong>
+              <a href="mailto:komalkale1812@gmail.com"
+                class="text-decoration-none text-light">komalkale1812@gmail.com</a>
+            </p>
+            <p class="mb-0"><i class="bi bi-linkedin me-2"></i><strong>LinkedIn:</strong> <a
+                href="https://www.linkedin.com/in/komal-kale-k1409" class="text-light text-decoration-underline"
+                target="_blank">linkedin.com/in/komal-kale-k1409</a></p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-7 px-5" data-aos="fade-left">
+          <form id="contact-form" action="https://formspree.io/f/mwpqqvpg" method="POST">
+            <!-- Spam honeypot (optional but recommended) -->
+            <input type="text" name="_honey" class="d-none" tabindex="-1" autocomplete="off">
+            <!-- Disable Formspree CAPTCHA (optional) -->
+            <input type="hidden" name="_captcha" value="false">
+            <!-- Subject (optional) -->
+            <input type="hidden" name="_subject" value="New message from portfolio contact form">
+
+            <div class="mb-3">
+              <input type="text" name="name" class="form-control bg-dark text-white border-secondary"
+                placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control bg-dark text-light border-secondary"
+                placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea name="message" class="form-control bg-dark text-light border-secondary" rows="4"
+                placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline-light" id="send-btn">Send Message</button>
+
+            <div id="form-success" class="alert alert-success mt-3 d-none" role="alert">
+              ✅ Your message has been sent successfully!
+            </div>
+            <div id="form-error" class="alert alert-danger mt-3 d-none" role="alert">
+              ❌ Something went wrong. Please try again.
+            </div>
+          </form>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: false      // animation only happens once
+    });
+  </script>
+
+  <script>
+    const form = document.getElementById('contact-form');
+    const success = document.getElementById('form-success');
+    const errorBox = document.getElementById('form-error');
+    const sendBtn = document.getElementById('send-btn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      success.classList.add('d-none');
+      errorBox.classList.add('d-none');
+      sendBtn.disabled = true;
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          form.reset();
+          success.classList.remove('d-none');
+        } else {
+          // Formspree returns JSON with errors for 4xx
+          const data = await res.json().catch(() => ({}));
+          errorBox.textContent = '❌ ' + (data?.errors?.map(e => e.message).join(', ') || 'Failed to send message.');
+          errorBox.classList.remove('d-none');
+        }
+      } catch (err) {
+        errorBox.textContent = '❌ Network error. Please check your connection.';
+        errorBox.classList.remove('d-none');
+      } finally {
+        sendBtn.disabled = false;
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>
